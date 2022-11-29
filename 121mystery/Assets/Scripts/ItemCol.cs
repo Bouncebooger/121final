@@ -15,7 +15,7 @@ public class ItemCol : MonoBehaviour
    private void ItemAct(int id )
     {
         if(id == this.id){
-            Debug.Log("AYO");
+            
             PlayerCol.current.playerItemInter -=ItemAct;
             Destroy(gameObject);
         }

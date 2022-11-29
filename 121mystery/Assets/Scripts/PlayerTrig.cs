@@ -18,7 +18,7 @@ public class PlayerTrig : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other){
-        Debug.Log("sussy");
+        
         PlayerCol.current.gamerItemInter(this.id);
     }
 }
